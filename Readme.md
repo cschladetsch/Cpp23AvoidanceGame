@@ -2,6 +2,10 @@
 
 This is a simple 2D avoidance game built using SDL2 and C++. The player controls a character that must avoid enemies while navigating a procedurally generated Perlin noise background.
 
+## Demo
+
+![Demo](/resources/Game-2.png)
+
 ## Features
 
 * **Procedural Background:** The game uses Perlin noise to generate a dynamic background.
