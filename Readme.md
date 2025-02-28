@@ -72,3 +72,85 @@ $ rm -rf build && mkdir build && cmake .. && make && ./SDL2Game
 * Improve the game's visual appearance.
 * Add a start screen.
 
+## More Ideas
+
+## Gameplay Elements
+
+### Pickups
+
+* **Health Orbs:**
+    * Randomly spawn health orbs that instantly restore a portion of the player's energy.
+    * Varying sizes and energy restoration amounts can add strategic depth.
+* **Speed Boosts:**
+    * Temporary speed boosts that allow the player to evade enemies more effectively.
+    * Could have limited durations and visual indicators.
+* **Shields:**
+    * Temporary shields that protect the player from enemy collisions.
+    * Could have limited durations or charges.
+
+### Mining Mechanics
+
+* **Resource Nodes:**
+    * Introduce resource nodes within the Perlin noise background.
+    * Different nodes could yield different resources.
+* **Mining Tool:**
+    * The player could acquire a mining tool to extract resources from nodes.
+    * Mining could require holding a key or a mini-game.
+* **Resource Usage:**
+    * Resources could be used to:
+        * Craft health orbs or shields.
+        * Upgrade mining tools or other equipment.
+        * Build structures.
+
+### Random Massive Encounters
+
+* **Enemy Waves:**
+    * Introduce random waves of enemies that spawn in large numbers.
+    * Waves could vary in intensity and enemy types.
+* **Boss Encounters:**
+    * Rare boss encounters with unique behaviors and attack patterns.
+    * Defeating bosses could yield rare resources or power-ups.
+* **Environmental Events:**
+    * Random environmental events, such as meteor showers or energy storms, that affect the player and enemies.
+
+### Buildings
+
+* **Base Building:**
+    * Allow the player to construct a base or shelter.
+    * The base could provide:
+        * A safe haven from enemies.
+        * Storage for resources.
+        * Crafting stations.
+* **Turrets:**
+    * Allow the player to build turrets to defend their base.
+* **Resource Extractors:**
+    * Allow the player to build automated resource extractors.
+
+### Other Ideas
+
+* **Enemy Trails:**
+    * Enemies leave behind trails that persist for a short time, adding a visual challenge.
+* **Enemy Variations:**
+    * Introduce different enemy types with unique behaviors and attack patterns.
+    * Some enemies could be faster, stronger, or have ranged attacks.
+* **Level Progression:**
+    * Implement level progression with increasing difficulty.
+    * New enemy types and mechanics could be introduced as the player progresses.
+* **Sound Effects and Music:**
+    * Add sound effects for collisions, pickups, and other events.
+    * Implement background music to enhance the atmosphere.
+* **Visual Enhancements:**
+    * Improve the game's visual appearance with particle effects, animations, and more detailed backgrounds.
+* **Minimap:**
+    * Add a minimap to help the player navigate the world.
+* **Inventory System:**
+    * Add an inventory system to hold collected resources and items.
+* **Day/Night Cycle:**
+    * Add a day/night cycle that affects enemy behavior and resource availability.
+* **Saving/Loading:**
+    * Implement saving and loading game progress.
+* **More varied Perlin noise:**
+    * Add more layers of perlin noise to create more varied terrain.
+* **Different biomes:**
+    * Add different biomes that have different resources and enemy types.
+
